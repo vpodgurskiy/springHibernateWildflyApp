@@ -6,7 +6,7 @@
              version="2.1">
 
     <persistence-unit name="PeopleDB">
-        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+<!--        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>-->
         <properties>
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3307/people?useUnicode=true&amp;serverTimezone=UTC&amp;useSSL=true&amp;verifyServerCertificate=false" />
             <property name="javax.persistence.jdbc.user" value="root" />
